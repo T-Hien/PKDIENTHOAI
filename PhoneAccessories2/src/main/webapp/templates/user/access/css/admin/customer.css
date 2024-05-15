@@ -1,0 +1,136 @@
+.profile {
+	width: 1205px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 1px 4px rgba(10, 10, 10, .15);
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+.profile-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.profile-input {
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile-body {
+	background-color: #F8F9FA;
+	padding: 20px;
+}
+
+.btnUpdate {
+	display: flex;
+	justify-content: center;
+}
+
+#input {
+	border-radius: 6px;
+	border-color: cornsilk;
+	height: 20px;
+	box-shadow: 0 1px 4px rgba(10, 10, 10, .15);
+}
+
+.profile-input label {
+	color: #444b52;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+.profile-button {
+	border-radius: 5px;
+	border-color: aliceblue;
+}
+
+/*---------------------*/
+.profile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: #f5f5f5;
+}
+
+.profile-form {
+	width: 100%;
+	max-width: 600px;
+	margin-bottom: 20px;
+}
+
+.form-info {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.row label {
+	margin-right: 10px;
+}
+
+.row input[type="file"] {
+	width: 100%;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table th, table td {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+table th {
+	text-align: left;
+}
+
+.separator {
+	border-top: 2px solid #ccc;
+}
+
+.profile-button {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.order-list {
+	margin-top: 20px;
+}
+
+.order-list h2 {
+	margin-bottom: 10px;
+}
+
+.order-info {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.order-info td:first-child {
+	width: 120px;
+}
+
+.hidden {
+	display: none;
+}
